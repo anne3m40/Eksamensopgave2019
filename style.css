@@ -300,6 +300,51 @@ figcaption {
     color: #f0bc68;
 }
 
+#taleboble .sprite {
+    background-image: url(assets/svg/taleboble.svg);
+    height: 80px;
+    width: 210px;
+
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+
+#ja .sprite {
+    background-image: url(assets/svg/ja.svg);
+    height: 25px;
+    width: 20px;
+
+    position: absolute;
+    top: 326px;
+    left: 310px;
+}
+
+#nej .sprite {
+    background-image: url(assets/svg/nej.svg);
+    height: 25px;
+    width: 35px;
+
+    position: absolute;
+    top: 326px;
+    left: 360px;
+}
+
+#kat .sprite {
+    background-image: url(assets/svg/kat.svg);
+    height: 175px;
+    width: 140px;
+
+    position: absolute;
+    top: 400px;
+    right: 10vw;
+
+}
+
+.dance {
+    transform: scaleX(-1);
+}
+
 /******om mig slut******/
 
 /******01.04.02******/
