@@ -328,6 +328,14 @@ figure {
     left: 310px;
 }
 
+.ja_container:hover {
+    cursor: pointer;
+}
+
+.nej_container:hover {
+    cursor: pointer;
+}
+
 .nej_sprite {
     background-image: url(assets/svg/nej.svg);
     height: 25px;
@@ -396,12 +404,12 @@ figure {
 
 #a01_04_02side a {
     text-decoration: none;
-    color: white;
+    color: #5f9595;
     font-weight: bold;
 }
 
 #a01_04_02side a:hover {
-    color: #5f9595;
+    color: white;
 }
 
 #a01_04_02side .sectionwrapper {
@@ -473,13 +481,13 @@ figure {
 }
 
 #a03_03_04side a {
-    color: white;
+    color: #5f9595;
     text-decoration: none;
     font-weight: bold;
 }
 
 #a03_03_04side a:hover {
-    color: #5f9595;
+    color: white;
 }
 
 
@@ -518,9 +526,13 @@ figure {
 }
 
 #a02_05_03side a {
-    color: white;
     text-decoration: none;
+    color: #5f9595;
     font-weight: bold;
+}
+
+#a02_05_03side a:hover {
+    color: white;
 }
 
 /******02.05.03 slut******/
@@ -594,9 +606,13 @@ figure {
 }
 
 #a03_02_08side a {
-    color: white;
+    color: #5f9595;
     text-decoration: none;
     font-weight: bold;
+}
+
+#a03_02_08side a:hover {
+    color: white;
 }
 
 /******03.02.08 slut******/
@@ -647,6 +663,7 @@ figure {
 
 #a04_01_01side img {
     border-radius: 10px;
+    max-width: 800px;
 }
 
 /******04.01.01 slut******/
@@ -668,9 +685,13 @@ figure {
 }
 
 #a04_02_01side a {
-    color: white;
+    color: #5f9595;
     text-decoration: none;
     font-weight: bold;
+}
+
+#a04_02_01side a:hover {
+    color: white;
 }
 
 #a04_02_01side .col3 {
@@ -706,9 +727,13 @@ figure {
 }
 
 #a04_03_01side a {
-    color: white;
+    color: #5f9595;
     text-decoration: none;
     font-weight: bold;
+}
+
+#a04_03_01side a:hover {
+    color: white;
 }
 
 #a04_03_01side .col {
