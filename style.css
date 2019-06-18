@@ -300,7 +300,7 @@ figcaption {
     color: #f0bc68;
 }
 
-#taleboble .sprite {
+.taleboble_sprite {
     background-image: url(assets/svg/taleboble.svg);
     height: 80px;
     width: 210px;
@@ -310,7 +310,7 @@ figcaption {
     left: 250px;
 }
 
-#ja .sprite {
+.ja_sprite {
     background-image: url(assets/svg/ja.svg);
     height: 25px;
     width: 20px;
@@ -320,7 +320,7 @@ figcaption {
     left: 310px;
 }
 
-#nej .sprite {
+.nej_sprite {
     background-image: url(assets/svg/nej.svg);
     height: 25px;
     width: 35px;
@@ -330,19 +330,49 @@ figcaption {
     left: 360px;
 }
 
-#kat .sprite {
+.kat_sprite {
     background-image: url(assets/svg/kat.svg);
     height: 175px;
     width: 140px;
+}
 
+.kat_container {
     position: absolute;
     top: 400px;
     right: 10vw;
-
 }
 
-.dance {
-    transform: scaleX(-1);
+.hide {
+    display: none;
+}
+
+.dans {
+    animation-name: dans_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes dans_kf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 /******om mig slut******/
