@@ -304,17 +304,21 @@ figcaption {
     background-image: url(assets/svg/taleboble.svg);
     height: 80px;
     width: 210px;
+}
 
+.taleboble_container {
     position: absolute;
     top: 280px;
-    left: 250px;
+    left: 252px;
 }
 
 .ja_sprite {
     background-image: url(assets/svg/ja.svg);
     height: 25px;
     width: 20px;
+}
 
+.ja_container {
     position: absolute;
     top: 326px;
     left: 310px;
@@ -324,7 +328,9 @@ figcaption {
     background-image: url(assets/svg/nej.svg);
     height: 25px;
     width: 35px;
+}
 
+.nej_container {
     position: absolute;
     top: 326px;
     left: 360px;
@@ -752,6 +758,34 @@ figcaption {
         flex-grow: 1;
         max-width: 250px;
     }
+
+    .taleboble_container {
+        left: 280px;
+        ;
+    }
+
+    .ja_container {
+        left: 340px;
+    }
+
+    .nej_container {
+        left: 385px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .taleboble_container {
+        left: 300px;
+        ;
+    }
+
+    .ja_container {
+        left: 360px;
+    }
+
+    .nej_container {
+        left: 405px;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -762,6 +796,19 @@ figcaption {
     nav {
         max-width: 1300px;
         margin: auto;
+    }
+
+    .taleboble_container {
+        left: 30vw;
+        ;
+    }
+
+    .ja_container {
+        left: 33.5vw;
+    }
+
+    .nej_container {
+        left: 36.5vw;
     }
 
 }
