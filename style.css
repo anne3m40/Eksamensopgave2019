@@ -72,6 +72,10 @@ figcaption {
     font-size: 0.8rem;
 }
 
+figure {
+    margin: 0;
+}
+
 /******fonte slut******/
 
 /*******forside******/
@@ -535,7 +539,6 @@ figcaption {
 }
 
 .video {
-    max-height: auto;
     max-width: 80vw;
 }
 
